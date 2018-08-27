@@ -2,7 +2,7 @@ import { Hero } from './hero';
 
 export const HEROES: Hero[] = [
   { id: 1, name: '夏' },
-  { id: 2, name: '商' },
+  { id: 2, name: '商  ' },
   { id: 3, name: '西周' },
   { id: 4, name: '东周（春秋 战国）' },
   { id: 5, name: '秦' },
