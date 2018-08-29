@@ -4,6 +4,7 @@
   list-style-type: none;
   padding: 0;
   width: 13em;
+  color:rgb(29, 8, 78)
 }
 .heroes li {
   position: relative;
@@ -16,13 +17,13 @@
 }
 
 .heroes li:hover {
-  color: #607D8B;
+  color: rgb(14, 5, 68);
   background-color: #DDD;
   left: .1em;
 }
 
 .heroes a {
-  color: #888;
+  color: rgb(13, 4, 68);
   text-decoration: none;
   position: relative;
   display: block;
@@ -30,7 +31,7 @@
 }
 
 .heroes a:hover {
-  color:#607D8B;
+  color:rgb(26, 10, 83);
 }
 
 .heroes .badge {
@@ -38,7 +39,7 @@
   font-size: small;
   color: white;
   padding: 0.8em 0.7em 0 0.7em;
-  background-color: #607D8B;
+  background-color: rgb(4, 8, 70);
   line-height: 1em;
   position: relative;
   left: -1px;
