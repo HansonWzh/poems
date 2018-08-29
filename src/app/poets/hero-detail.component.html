@@ -1,0 +1,13 @@
+<div *ngIf="hero">
+  <h2>{{hero.name | uppercase}}</h2>
+<hr/>
+  <div></div>
+  <div>
+    <label>name:
+      <input [(ngModel)]="hero.name" placeholder="name" />
+    </label>
+  </div>
+  <div style="float:right; padding-right:20px;">
+    <button style="color:yellow;font-weight:bold;width:100px;height:30px;background:rgb(84, 84, 230);" (click)="goBack()">返   回</button>
+  </div>
+</div>
