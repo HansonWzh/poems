@@ -11,3 +11,14 @@
     <button style="color:yellow;font-weight:bold;width:100px;height:30px;background:rgb(84, 84, 230);" (click)="goBack()">返   回</button>
   </div>
 </div>
+<div *ngFor="let poet of poets">
+    <ul class="poets" >
+      <li >
+        <a routerLink="/detail/{{poet.id}}">
+          <span class="badge">{{poet.id}}</span> {{poet.name}}
+        </a>   
+      </li>
+    </ul>
+    <span>{{poet.detail}}</span>
+    </div>
+
