@@ -6,7 +6,7 @@ import { Poet } from './poet';
 import { Poets } from './mock-poets';
 
 @Injectable({ providedIn: 'root' })
-export class Heroservice {
+export class Poetservice {
     constructor() { }
     getPoets(): Observable<Poet[]> {
         return of(Poets);
