@@ -2,7 +2,7 @@
   <h2>{{hero.name | uppercase}}</h2>
 <hr/>
 <div *ngFor="let poet of poets">
-  <ul class="poets" >
+  <ul class="heroes" >
     <li >
       <a routerLink="/detail/{{poet.id}}">
         <span class="badge">{{poet.id}}</span> {{poet.name}}
