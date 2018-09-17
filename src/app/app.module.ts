@@ -9,6 +9,7 @@ import { HeroesComponent } from './poems/heroes.component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { PoetComponent } from './poet/poet.component';
+import { PoemComponent } from './poem/poem.component';
 
 @NgModule({
   imports: [
@@ -21,7 +22,8 @@ import { PoetComponent } from './poet/poet.component';
     DashboardComponent,
     HeroesComponent,
     HeroDetailComponent,
-    PoetComponent
+    PoetComponent,
+    PoemComponent
   ],
   bootstrap: [ AppComponent ]
 })
