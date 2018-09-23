@@ -1,0 +1,17 @@
+<div *ngIf="hero">
+    <h2>{{poet.name | uppercase}}</h2>
+  <hr/>
+  <div *ngFor="let poem of poems">
+    <ul class="heroes" >
+      <li >
+        <a routerLink="/detail/{{poem.id}}">
+          <span class="badge">{{poem.id}}</span> {{poem.name}}
+        </a>   
+      </li>
+    </ul>
+    <span>{{poem.detail}}</span>
+  </div>
+    <div style="float:right; padding-right:20px;">
+      <button style="color:yellow;font-weight:bold;width:100px;height:30px;background:rgb(84, 84, 230);" (click)="goBack()">返   回</button>
+    </div>
+  </div>

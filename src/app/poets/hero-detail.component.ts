@@ -6,6 +6,8 @@ import { Hero } from '../hero';
 import { Heroservice } from '../hero.service';
 import { PoetService } from '../poet.service';
 import { Poet } from '../poet';
+import { Poem } from '../poem';
+import { PoemService} from '../poem.service';
 
 @Component({
   selector: 'app-hero-detail',
@@ -15,12 +17,14 @@ import { Poet } from '../poet';
 export class HeroDetailComponent implements OnInit {
   @Input() hero: Hero;
   poets: Poet[];
+  poems: Poem[];
 
   constructor(
     private route: ActivatedRoute,
     private heroservice: Heroservice,
     private location: Location,
-    private poetservice: PoetService
+    private poetservice: PoetService,
+    private poemservice: PoemService
   ) { }
 
   ngOnInit(): void {

@@ -9,6 +9,7 @@ import { HeroesComponent } from './poems/heroes.component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { PoetComponent } from './poet/poet.component';
+import { PoemComponent } from './poem/poem.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { PoetComponent } from './poet/poet.component';
     HeroesComponent,
     HeroDetailComponent,
     PoetComponent,
+    PoemComponent
   ],
   bootstrap: [ AppComponent ]
 })
